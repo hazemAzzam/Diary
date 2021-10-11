@@ -12,3 +12,4 @@ then press on database in the upper bar
 then forward engineer
 
 then you will be able to use the diary
+from release folder
