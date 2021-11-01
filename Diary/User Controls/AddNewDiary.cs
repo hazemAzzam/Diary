@@ -22,7 +22,7 @@ namespace Diary.User_Controls
             email = text;
             connectionString = connectionTEXT;
             connection = new MySqlConnection(connectionString);
-            startTime = DateTime.Now.ToString("hh:mm:ss");
+            startTime = DateTime.Now.ToString("HH:mm:ss");
             InitializeComponent();
         }
 
@@ -44,7 +44,7 @@ namespace Diary.User_Controls
         private void button1_Click(object sender, EventArgs e)
         {
             string date = DateTime.UtcNow.ToString("yyyy-MM-dd");
-            string finishTime = DateTime.Now.ToString("hh:mm:ss");
+            string finishTime = DateTime.Now.ToString("HH:mm:ss");
             string title = titleTXT.Text;
             string content = contentTXT.Text;
             content = pharse(content);
