@@ -169,7 +169,7 @@ namespace Diary.User_Controls
                 textTitle.Anchor = AnchorStyles.Right;
                 textTitle.Dock = DockStyle.Right;
 
-                this.BackColor = Color.FromArgb(135, 67, 29);
+                this.BackColor = Color.FromArgb(29, 33, 37);
                 this.Size = new Size(709, 75);
                 this.BorderStyle = BorderStyle.FixedSingle;
                 this.Anchor = AnchorStyles.Left;
@@ -192,12 +192,12 @@ namespace Diary.User_Controls
         private void changeHover(object sender, EventArgs e)
         {
             myObj myObj = sender as myObj;
-            myObj.BackColor = Color.FromArgb(200, 121, 65);
+            myObj.BackColor = Color.FromArgb(47, 54, 61);
         }
         private void changeHoverLeaver(object sender, EventArgs e)
         {
             myObj myObj = sender as myObj;
-            myObj.BackColor = Color.FromArgb(135, 67, 29);
+            myObj.BackColor = Color.FromArgb(29, 33, 37);
         }
 
         private void offlineChangeHover(object sender, EventArgs e)
@@ -222,7 +222,7 @@ namespace Diary.User_Controls
             catch
             {
                 
-                return false;
+                return true;
             }
         }
 

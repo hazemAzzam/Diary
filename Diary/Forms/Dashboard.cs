@@ -51,18 +51,21 @@ namespace Diary.Forms
             
             Application.Exit();
         }
-
+        Color color1 = Color.FromArgb(36, 41, 174);
+        Color color2 = Color.FromArgb(29, 33, 37);
         private void button3_Click(object sender, EventArgs e)
         {
-            if (addNewButton.BackColor == Color.FromArgb(129, 0, 52))
+            
+            
+            if (addNewButton.BackColor == color1)
             {
 
             }
             else
             {
-                addNewButton.BackColor = Color.FromArgb(135, 67, 29);
-                viewAllButton.BackColor = Color.FromArgb(41, 0, 1);
-                editAccountButton.BackColor = Color.FromArgb(41, 0, 1);
+                addNewButton.BackColor = color1;
+                viewAllButton.BackColor = color2;
+                editAccountButton.BackColor = color2;
 
                 User_Controls.AddNewDiary addnewDiary = new User_Controls.AddNewDiary(email, connectionString);
                 addnewDiary.Dock = DockStyle.Fill;
@@ -75,9 +78,9 @@ namespace Diary.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            viewAllButton.BackColor = Color.FromArgb(135, 67, 29);
-            addNewButton.BackColor = Color.FromArgb(41, 0, 1);
-            editAccountButton.BackColor = Color.FromArgb(41, 0, 1);
+            viewAllButton.BackColor = color1;
+            addNewButton.BackColor = color2;
+            editAccountButton.BackColor = color2;
 
             //if (CheckForInternetConnection())
             //{
@@ -216,9 +219,9 @@ namespace Diary.Forms
 
         private void button5_Click(object sender, EventArgs e)
         {
-            editAccountButton.BackColor = Color.FromArgb(135, 67, 29);
-            addNewButton.BackColor = Color.FromArgb(41, 0, 1);
-            viewAllButton.BackColor = Color.FromArgb(41, 0, 1);
+            editAccountButton.BackColor = color1;
+            addNewButton.BackColor = color2;
+            viewAllButton.BackColor = color2;
             
 
             panel3.Controls.Clear();
@@ -291,6 +294,13 @@ namespace Diary.Forms
                         write.WriteLine(startTime + " --> " + finishTime + "\n" + title + "\n" + content + "\n~~~~~~\n");
                     }
                 }
+                System.Diagnostics.Process process = new System.Diagnostics.Process();
+                System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+                startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+                startInfo.FileName = "CMD.exe";
+                startInfo.Arguments = "tar.exe -a -c -f MyDiarys.zip MyDiarys";
+                process.StartInfo = startInfo;
+                process.Start();
                 connection.Close();
             }
             else
@@ -308,7 +318,7 @@ namespace Diary.Forms
             }
             catch
             {
-                return false;
+                return true;
             }
         }
 

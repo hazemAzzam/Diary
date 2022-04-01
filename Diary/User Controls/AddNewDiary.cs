@@ -120,7 +120,7 @@ namespace Diary.User_Controls
             else
             {
                 contentTXT.RightToLeft = RightToLeft.Yes;
-                titleTXT.RightToLeft = RightToLeft.Yes;
+                titleTXT.RightToLeft = RightToLeft.Yes; 
             }
         }
     }

@@ -38,10 +38,10 @@ namespace Diary.User_Controls
             // 
             // titleTXT
             // 
-            this.titleTXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(67)))), ((int)(((byte)(29)))));
+            this.titleTXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(61)))));
             this.titleTXT.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.titleTXT.Font = new System.Drawing.Font("Frutiger LT Arabic 55 Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(203)))), ((int)(((byte)(189)))));
+            this.titleTXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(213)))), ((int)(((byte)(213)))));
             this.titleTXT.Location = new System.Drawing.Point(81, 5);
             this.titleTXT.Multiline = true;
             this.titleTXT.Name = "titleTXT";
@@ -67,10 +67,10 @@ namespace Diary.User_Controls
             this.contentTXT.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.contentTXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(67)))), ((int)(((byte)(29)))));
+            this.contentTXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(61)))));
             this.contentTXT.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.contentTXT.Font = new System.Drawing.Font("Frutiger LT Arabic 55 Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contentTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(203)))), ((int)(((byte)(189)))));
+            this.contentTXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contentTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(213)))), ((int)(((byte)(213)))));
             this.contentTXT.Location = new System.Drawing.Point(0, 42);
             this.contentTXT.Name = "contentTXT";
             this.contentTXT.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -83,7 +83,7 @@ namespace Diary.User_Controls
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(174)))));
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -111,7 +111,7 @@ namespace Diary.User_Controls
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.contentTXT);
@@ -119,7 +119,7 @@ namespace Diary.User_Controls
             this.Controls.Add(this.titleTXT);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(203)))), ((int)(((byte)(189)))));
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(213)))), ((int)(((byte)(213)))));
             this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "AddNewDiary";
             this.Size = new System.Drawing.Size(742, 562);

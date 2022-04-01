@@ -57,7 +57,7 @@ namespace Diary.Forms
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(61)))));
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.pictureBox2);
@@ -66,7 +66,7 @@ namespace Diary.Forms
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(203)))), ((int)(((byte)(189)))));
+            this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(213)))), ((int)(((byte)(213)))));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(981, 50);
@@ -166,7 +166,7 @@ namespace Diary.Forms
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.button7);
@@ -177,7 +177,7 @@ namespace Diary.Forms
             this.panel2.Controls.Add(this.addNewButton);
             this.panel2.Controls.Add(this.viewAllButton);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(203)))), ((int)(((byte)(189)))));
+            this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(213)))), ((int)(((byte)(213)))));
             this.panel2.Location = new System.Drawing.Point(0, 50);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(257, 600);
@@ -211,11 +211,12 @@ namespace Diary.Forms
             this.button1.TabIndex = 7;
             this.button1.Text = "Upload Diarys";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(67)))), ((int)(((byte)(29)))));
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.button7.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
@@ -267,7 +268,7 @@ namespace Diary.Forms
             // 
             // editAccountButton
             // 
-            this.editAccountButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
+            this.editAccountButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(61)))));
             this.editAccountButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.editAccountButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.editAccountButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
@@ -281,7 +282,7 @@ namespace Diary.Forms
             // 
             // addNewButton
             // 
-            this.addNewButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
+            this.addNewButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(61)))));
             this.addNewButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.addNewButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addNewButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
@@ -295,7 +296,7 @@ namespace Diary.Forms
             // 
             // viewAllButton
             // 
-            this.viewAllButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(67)))), ((int)(((byte)(29)))));
+            this.viewAllButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(174)))));
             this.viewAllButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.viewAllButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewAllButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -309,9 +310,9 @@ namespace Diary.Forms
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(67)))), ((int)(((byte)(29)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(61)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(0)))));
+            this.panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(213)))), ((int)(((byte)(213)))));
             this.panel3.Location = new System.Drawing.Point(257, 50);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(724, 600);

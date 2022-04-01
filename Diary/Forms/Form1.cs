@@ -95,7 +95,7 @@ namespace Diary
                         }
                         else
                         {
-                            MessageBox.Show("false");
+                            MessageBox.Show("No Internet Connection");
                         }
                     }
                 }
@@ -163,7 +163,7 @@ namespace Diary
             }
             catch
             {
-                return false;
+                return true;
             }
         }
 
